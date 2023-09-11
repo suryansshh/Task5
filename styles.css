@@ -1,0 +1,37 @@
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    width: 30%;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.input-group {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+select {
+    width: 60%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0 5px;
+}
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* This would center vertically if the container had a height greater than the content. */
+    width: 100%;
+}
